@@ -76,7 +76,8 @@ console.log(typeof a);
 console.log(a);
 
 a = 1 + 2 +"2"
-console.log(typeof a);
+console.log(typeof a); // =>string type
+
 
 
 //Increment and Decrement operators
