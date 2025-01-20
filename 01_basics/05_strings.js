@@ -61,10 +61,14 @@ console.log(s1.concat(' ', s2,' ', s3));
 
 const paragraph = "I think Ruth's dog is cuter than your dog!";
 
-console.log(paragraph.replaceall('dog', 'cat')); // jahan jahan dog hai puri string me wo cat se replace hojayga
+console.log(paragraph.replaceAll('dog', 'cat')); // jahan jahan dog hai puri string me wo cat se replace hojayga
 
 
 const name1 = "    zunaid     chauhan  "
 
 console.log(name1.trim());
 
+// includes()
+
+let Email = new String("zunaid.gmail.com")
+console.log(Email.includes('@gmail'));
