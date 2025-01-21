@@ -21,6 +21,10 @@ const sum = 10000000
 console.log(sum.toLocaleString('en')); // By default - American style
 
 // +++++++++++++++ MATHS ++++++++++++++++++
+// Math is a global object of javascript which we can use without making an instance of it with a new keyword due to its static nature 
+
+//like -> let mymath = new Math(); X 
+
 
 console.log(Math.abs(-3)); //Converts negative numbers into positive
 console.log(Math.round(3.2)) //Give roundoff value of dcimals
